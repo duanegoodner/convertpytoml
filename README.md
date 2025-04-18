@@ -7,8 +7,8 @@
 
 ### Clone the repository and navigate to the project directory
 ```shell
-git clone https://github.com/duanegoodner/pyprojectconverter
-cd pyprojectconverter
+git clone https://github.com/duanegoodner/convertpytoml
+cd convertpytoml
 ```
 
 ## ⚡ Usage
@@ -18,7 +18,7 @@ cd pyprojectconverter
 #### 📌 Command Line Help
 Run:
 ```shell
-python pyprojectconverter/pip_to_poetry.py --help
+python convertpytoml/pip_to_poetry.py --help
 ```
 Expected output:
 ```shell
@@ -38,7 +38,7 @@ optional arguments:
 
 Convert a pip-style `pyproject.toml` to Poetry format:
 ```shell
-python pyprojectconverter/pip_to_poetry.py -i data/orig_for_pip.toml -o converted_to_poetry.toml
+python convertpytoml/pip_to_poetry.py -i data/orig_for_pip.toml -o converted_to_poetry.toml
 ```
 Expected output:
 ```shell
@@ -52,7 +52,7 @@ Now, compare `converted_to_poetry.toml` with `data/orig_for_poetry.toml`. The st
 #### 📌 Command Line Help
 Run:
 ```shell
-python pyprojectconverter/poetry_to_pip.py --help
+python convertpytoml/poetry_to_pip.py --help
 ```
 Expected output:
 ```shell
@@ -72,7 +72,7 @@ optional arguments:
 
 Run:
 ```shell
- python pyprojectconverter/poetry_to_pip.py -i data/orig_for_poetry.toml -o converted_to_pip.toml
+ python convertpytoml/poetry_to_pip.py -i data/orig_for_poetry.toml -o converted_to_pip.toml
 ```
 Expected Output:
 ```shell
